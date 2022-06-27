@@ -1,0 +1,45 @@
+body{
+    background-color:antiquewhite;
+}
+
+.conteiner {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.frame{
+    max-width: 400px;
+    max-height: 400px;
+   display: flex;
+    background-color:white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px grey;
+}
+
+img{
+    width: 100%;
+    /* height: 100%; */
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 5px 5px 5px #999;
+}
+
+.btn:hover{
+    background-color: green !important;
+}
+
+.btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
