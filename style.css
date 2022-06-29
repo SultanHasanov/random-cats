@@ -43,3 +43,13 @@ img{
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+
+.count{
+    margin-top: 30px;
+}
+
+.footer{
+    width: 250px;
+    display:flex;
+    justify-content:space-between;
+}
