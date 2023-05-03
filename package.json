@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "name": "cats-random",
+  "description": "<a href='https://sultanhasanov.github.io/random-cats/'> Demo </a>",
+  "version": "1.0.0",
+  "main": "script.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SultanHasanov/random-cats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SultanHasanov/random-cats/issues"
+  },
+  "homepage": "https://github.com/SultanHasanov/random-cats#readme"
+}
