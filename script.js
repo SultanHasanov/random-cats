@@ -1,4 +1,4 @@
-const url = "https://aws.random.cat/meow";
+const url = "https://api.thecatapi.com/v1/images/search";
 const button = document.querySelector('.btn');
 const image = document.querySelector('img')
 const total = document.getElementById('total')
