@@ -8,7 +8,7 @@ async function fenchHandler () {
 try {
 const response = await fetch(url);
 const data = await response.json();
-image.src = data.file;
+image.src = data.url;
 total.textContent = i
 } catch (error){
     console.log(error);
