@@ -33,6 +33,14 @@ img{
     transition: all 0.5s ease-in-out;
     box-shadow: 5px 5px 5px #999;
 }
+.btn:disabled {
+    color: grey;
+    background-color: lightgrey;
+}
+#timer {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
 
 .btn:hover{
     background-color: green !important;
