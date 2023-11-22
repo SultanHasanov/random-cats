@@ -2,7 +2,7 @@ const button = document.querySelector(".btn");
 const image = document.querySelector("img");
 const total = document.getElementById("total");
 let i = 0;
-let timeLeft = 3;
+let timeLeft = 50;
 var timerDiv = document.getElementById("timer");
 
 function updateTimer() {

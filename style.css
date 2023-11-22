@@ -35,14 +35,15 @@ img{
     box-shadow: 5px 5px 5px #999;
     /* background-color: green !important; */
 }
-.btn:disabled {
+/* .btn:disabled {
     color: grey;
     background-color: lightgrey;
+} */
+.btn:not(:disabled) {
+    background-color: green !important;
 }
-.btn:disabled {
-    color: grey;
-    background-color: lightgrey;
-}
+
+
 #timer{
     margin-top: 20px;
 }
