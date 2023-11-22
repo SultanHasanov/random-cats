@@ -1,6 +1,8 @@
 const button = document.querySelector(".btn");
 const image = document.querySelector("img");
 const total = document.getElementById("total");
+var timerDiv = document.getElementById('timer')
+var timeLeft = 10
 let i = 0;
 
 
