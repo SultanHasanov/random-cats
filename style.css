@@ -39,6 +39,14 @@ img{
     color: grey;
     background-color: lightgrey;
 }
+.btn:disabled {
+    color: grey;
+    background-color: lightgrey;
+}
+#timer {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
 
 /* .btn:hover{
     background-color: green !important;

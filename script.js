@@ -1,6 +1,8 @@
 const button = document.querySelector(".btn");
 const image = document.querySelector("img");
 const total = document.getElementById("total");
+var timerDiv = document.getElementById('timer')
+var timeLeft = 10
 let i = 0;
 let timeLeft = 3;
 var timerDiv = document.getElementById("timer");
@@ -27,9 +29,6 @@ async function fenchHandler() {
 }
 
 button.addEventListener("click", () => {
-  let isLoaded = image.complete;
-  if (isLoaded) {
-    i++;
-    fenchHandler();
-  }
+  i++;
+  fenchHandler();
 });
