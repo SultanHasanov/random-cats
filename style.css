@@ -25,23 +25,29 @@ img{
 }
 
 .btn{
+    border: none;
     margin-top: 20px;
     padding: 5px;
     border-radius: 5px;
-    border: 1px solid;
+    /* border: 1px solid; */
     cursor: pointer;
     transition: all 0.5s ease-in-out;
     box-shadow: 5px 5px 5px #999;
+    /* background-color: green !important; */
+}
+.btn:disabled {
+    color: grey;
+    background-color: lightgrey;
 }
 
-.btn:hover{
+/* .btn:hover{
     background-color: green !important;
-}
+} */
 
-.btn:active {
-    background-color: #3e8e41;
+.button-active {
+    background-color: green !important;
     box-shadow: 0 5px #666;
-    transform: translateY(4px);
+    /* transform: translateY(4px); */
 }
 
 .count{

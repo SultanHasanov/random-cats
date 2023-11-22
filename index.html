@@ -8,6 +8,7 @@
     <title>Random-cats</title>
   </head>
   <body>
+    <div>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
       (function (m, e, t, r, i, k, a) {
@@ -51,17 +52,19 @@
     ></noscript>
     <!-- /Yandex.Metrika counter -->
     <div class="conteiner">
+      
       <h1>Генерация фотографий кошки</h1>
       <div class="frame">
         <img src="./img/cats.jpg" alt="cats" />
       </div>
       <div class="footer">
-        <button class="btn">Сгенерировать</button>
+        <button disabled class="btn">Сгенерировать</button>
         <div class="count">
           Счет:
           <span id="total"></span>
         </div>
       </div>
+      <div id="timer">10</div>
     </div>
 
     <script src="./script.js"></script>
