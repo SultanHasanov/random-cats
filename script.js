@@ -1,19 +1,17 @@
 const button = document.querySelector(".btn");
 const image = document.querySelector("img");
 const total = document.getElementById("total");
-var timerDiv = document.getElementById('timer')
-var timeLeft = 10
 let i = 0;
 let timeLeft = 3;
 var timerDiv = document.getElementById("timer");
 
 function updateTimer() {
-  timerDiv.innerHTML = `Осталось времени: ${timeLeft} сек.`;
+  timerDiv.innerHTML = `Осталось времени: <span class="timer-value">${timeLeft}</span> сек.`;
   if (timeLeft === 0) {
     clearInterval(interval);
     button.disabled = false;
     button.classList.add("button-active");
-    timerDiv.innerHTML = "Время вышло!";
+    timerDiv.innerHTML = "Можно нажимать";
   } else {
     timeLeft -= 1;
   }

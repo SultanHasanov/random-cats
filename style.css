@@ -43,9 +43,11 @@ img{
     color: grey;
     background-color: lightgrey;
 }
-#timer {
-    font-size: 20px;
-    margin-bottom: 10px;
+#timer{
+    margin-top: 20px;
+}
+.timer-value{
+    color: red;
 }
 
 /* .btn:hover{
