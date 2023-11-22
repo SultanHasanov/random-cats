@@ -14,7 +14,8 @@ async function fenchHandler() {
 }
 
 button.addEventListener("click", () => {
-   let isLoaded = image.complete;
+  
+   let isLoaded = image.onload;
   if (isLoaded) {
     fenchHandler();
     i++;
